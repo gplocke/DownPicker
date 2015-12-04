@@ -21,6 +21,7 @@
 	NSString* toolbarDoneButtonText;
     NSString* toolbarCancelButtonText;
 	UIBarStyle toolbarStyle;
+    NSIndexPath *indexPath;
 }
 
 @property (nonatomic) NSString* text;
@@ -45,6 +46,7 @@
 -(void) setToolbarDoneButtonText:(NSString*)str;
 -(void) setToolbarCancelButtonText:(NSString*)str;
 -(void) setToolbarStyle:(UIBarStyle)style;
+-(void) setIndexPath:(NSIndexPath *)ip;
 
 /**
  TRUE to show the rightmost arrow image, FALSE to hide it.
@@ -55,6 +57,7 @@
 
 -(UIPickerView*) getPickerView;
 -(UITextField*) getTextField;
+-(NSIndexPath*) getIndexPath;
 
 /**
  Retrieves the string value at the specified index.

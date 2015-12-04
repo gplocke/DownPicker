@@ -259,6 +259,11 @@
     self->toolbarStyle = style;
 }
 
+-(void) setIndexPath:(NSIndexPath *)ip;
+{
+    self->indexPath = ip;
+}
+
 -(UIPickerView*) getPickerView
 {
     return self->pickerView;
@@ -267,6 +272,10 @@
 -(UITextField*) getTextField
 {
     return self->textField;
+}
+-(NSIndexPath*) getIndexPath
+{
+    return self->indexPath;
 }
 
 -(NSString*) getValueAtIndex:(NSInteger)index
