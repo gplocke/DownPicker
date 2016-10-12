@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24AF73B3678C1AA3AB0D1635 /* Pods_DownPicker_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2A4955289EF27FDDAAF7F64 /* Pods_DownPicker_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -20,9 +21,8 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		70BC15C561D8B06A049FD66D /* Pods_DownPicker_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DDDCC88EB5C9D1747960000 /* Pods_DownPicker_Example.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		B81C30801E3E23D3B0FCFB8B /* Pods_DownPicker_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFFD38B44898373D54B724BC /* Pods_DownPicker_Example.framework */; };
-		D2B5134B619EF5195D488787 /* Pods_DownPicker_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 364DB25569FF9082DF7A304A /* Pods_DownPicker_Tests.framework */; };
 		F2CD24831BA1F6AA0054CC54 /* DownPicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2CD24821BA1F6AA0054CC54 /* DownPicker.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 /* End PBXBuildFile section */
 
@@ -37,9 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		172E83168D617CA8FB096594 /* Pods-DownPicker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DownPicker_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-DownPicker_Example/Pods-DownPicker_Example.release.xcconfig"; sourceTree = "<group>"; };
-		2BCA21CAAB9B3869B7FAA46D /* Pods-DownPicker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DownPicker_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DownPicker_Tests/Pods-DownPicker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		364DB25569FF9082DF7A304A /* Pods_DownPicker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DownPicker_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F580561F8F6B4033687AF5F /* Pods-DownPicker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DownPicker_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DownPicker_Tests/Pods-DownPicker_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		1DDDCC88EB5C9D1747960000 /* Pods_DownPicker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DownPicker_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E82E1D12E13FCF3B044FB44 /* Pods-DownPicker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DownPicker_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-DownPicker_Example/Pods-DownPicker_Example.release.xcconfig"; sourceTree = "<group>"; };
 		44987258885F36C3104BB9DB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* DownPicker_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DownPicker_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -60,14 +60,14 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		7FDB79486D07DF164A8EDDDA /* Pods-DownPicker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DownPicker_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DownPicker_Example/Pods-DownPicker_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		8BD6C59BBF6B5743E3481302 /* Pods-DownPicker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DownPicker_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DownPicker_Tests/Pods-DownPicker_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		AC14DC5AD61DA336804934B3 /* Pods-DownPicker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DownPicker_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DownPicker_Example/Pods-DownPicker_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B31E610D8CEA0B07FA9BBD73 /* DownPicker.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DownPicker.podspec; path = ../DownPicker.podspec; sourceTree = "<group>"; };
+		C2A4955289EF27FDDAAF7F64 /* Pods_DownPicker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DownPicker_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C504827BBA3B441C1B93B965 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		DCA091B2E0049552B7F188FD /* Pods-DownPicker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DownPicker_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DownPicker_Tests/Pods-DownPicker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F2CD24801BA1F5B50054CC54 /* DownPicker.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DownPicker.framework; path = "Pods/../build/Debug-iphoneos/DownPicker.framework"; sourceTree = "<group>"; };
 		F2CD24821BA1F6AA0054CC54 /* DownPicker.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DownPicker.framework; path = "Pods/../build/Debug-iphoneos/DownPicker.framework"; sourceTree = "<group>"; };
-		FFFD38B44898373D54B724BC /* Pods_DownPicker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DownPicker_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +79,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				B81C30801E3E23D3B0FCFB8B /* Pods_DownPicker_Example.framework in Frameworks */,
+				70BC15C561D8B06A049FD66D /* Pods_DownPicker_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,24 +90,13 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				D2B5134B619EF5195D488787 /* Pods_DownPicker_Tests.framework in Frameworks */,
+				24AF73B3678C1AA3AB0D1635 /* Pods_DownPicker_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3D2512F86628FAA7211F3390 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				AC14DC5AD61DA336804934B3 /* Pods-DownPicker_Example.debug.xcconfig */,
-				172E83168D617CA8FB096594 /* Pods-DownPicker_Example.release.xcconfig */,
-				2BCA21CAAB9B3869B7FAA46D /* Pods-DownPicker_Tests.debug.xcconfig */,
-				8BD6C59BBF6B5743E3481302 /* Pods-DownPicker_Tests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -116,7 +105,7 @@
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
-				3D2512F86628FAA7211F3390 /* Pods */,
+				A95BA07DD44B60C40AD9572C /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -138,8 +127,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				FFFD38B44898373D54B724BC /* Pods_DownPicker_Example.framework */,
-				364DB25569FF9082DF7A304A /* Pods_DownPicker_Tests.framework */,
+				1DDDCC88EB5C9D1747960000 /* Pods_DownPicker_Example.framework */,
+				C2A4955289EF27FDDAAF7F64 /* Pods_DownPicker_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -199,6 +188,17 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		A95BA07DD44B60C40AD9572C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7FDB79486D07DF164A8EDDDA /* Pods-DownPicker_Example.debug.xcconfig */,
+				2E82E1D12E13FCF3B044FB44 /* Pods-DownPicker_Example.release.xcconfig */,
+				DCA091B2E0049552B7F188FD /* Pods-DownPicker_Tests.debug.xcconfig */,
+				0F580561F8F6B4033687AF5F /* Pods-DownPicker_Tests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -206,12 +206,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "DownPicker_Example" */;
 			buildPhases = (
-				86AF999115A53CD425DBE33A /* Check Pods Manifest.lock */,
+				7B0D368FBE356B5343C90BFE /* [CP] Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				7F1C77996C805FE07B52665B /* Embed Pods Frameworks */,
-				B7C62671111D999A97531015 /* Copy Pods Resources */,
+				EAB16C4766915382DC9CD014 /* [CP] Embed Pods Frameworks */,
+				63C7D15801F96728E79A5DA3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -226,12 +226,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "DownPicker_Tests" */;
 			buildPhases = (
-				53CA8C7A0C5E3F9BC94BF997 /* Check Pods Manifest.lock */,
+				EE4EBE4B2593FA3CB538C296 /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				F5BB93DE3A30CBBAD57E2807 /* Embed Pods Frameworks */,
-				CA90CA6A62B463C32BBC766A /* Copy Pods Resources */,
+				17DD40E380445B86EAE68518 /* [CP] Embed Pods Frameworks */,
+				C2D6F09741D52895C39B30C8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -299,59 +299,29 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		53CA8C7A0C5E3F9BC94BF997 /* Check Pods Manifest.lock */ = {
+		17DD40E380445B86EAE68518 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DownPicker_Tests/Pods-DownPicker_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		7F1C77996C805FE07B52665B /* Embed Pods Frameworks */ = {
+		63C7D15801F96728E79A5DA3 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DownPicker_Example/Pods-DownPicker_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		86AF999115A53CD425DBE33A /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		B7C62671111D999A97531015 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -359,14 +329,29 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DownPicker_Example/Pods-DownPicker_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		CA90CA6A62B463C32BBC766A /* Copy Pods Resources */ = {
+		7B0D368FBE356B5343C90BFE /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C2D6F09741D52895C39B30C8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -374,19 +359,34 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DownPicker_Tests/Pods-DownPicker_Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F5BB93DE3A30CBBAD57E2807 /* Embed Pods Frameworks */ = {
+		EAB16C4766915382DC9CD014 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DownPicker_Tests/Pods-DownPicker_Tests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DownPicker_Example/Pods-DownPicker_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE4EBE4B2593FA3CB538C296 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -514,7 +514,7 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AC14DC5AD61DA336804934B3 /* Pods-DownPicker_Example.debug.xcconfig */;
+			baseConfigurationReference = 7FDB79486D07DF164A8EDDDA /* Pods-DownPicker_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -533,7 +533,7 @@
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 172E83168D617CA8FB096594 /* Pods-DownPicker_Example.release.xcconfig */;
+			baseConfigurationReference = 2E82E1D12E13FCF3B044FB44 /* Pods-DownPicker_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -552,7 +552,7 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2BCA21CAAB9B3869B7FAA46D /* Pods-DownPicker_Tests.debug.xcconfig */;
+			baseConfigurationReference = DCA091B2E0049552B7F188FD /* Pods-DownPicker_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -575,7 +575,7 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8BD6C59BBF6B5743E3481302 /* Pods-DownPicker_Tests.release.xcconfig */;
+			baseConfigurationReference = 0F580561F8F6B4033687AF5F /* Pods-DownPicker_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (

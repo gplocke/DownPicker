@@ -23,6 +23,17 @@
     return [self initWithTextField:tf withData:nil];
 }
 
+-(id)initWithTextField:(UITextField *)tf withData:(NSArray*) data andIcons:(NSArray <UIImageView *> *) icons
+{
+    self = [self initWithTextField:tf withData:data];
+    
+    if (icons != nil) {
+        [self setIcons: icons];
+    }
+    
+    return self;
+}
+
 -(id)initWithTextField:(UITextField *)tf withData:(NSArray*) data
 {
     self = [super init];
@@ -91,6 +102,27 @@
 - (NSString *)pickerView:(UIPickerView *)pickerView titleForRow:(NSInteger)row forComponent:(NSInteger)component;
 {
     return [dataArray objectAtIndex:row];
+}
+
+- (UIView *)pickerView:(UIPickerView *)pickerView viewForRow:(NSInteger)row forComponent:(NSInteger)component reusingView:(UIView *)view
+{
+    UIView *pickerCustomView = [[UIView alloc] init];
+    
+    UILabel *titleLabel = [[UILabel alloc] init];
+    titleLabel.text = [dataArray objectAtIndex:row];
+    [titleLabel setFrame:CGRectMake(60,0,50,50)];
+    [pickerCustomView addSubview:titleLabel];
+    
+    UIImageView *icon = [iconArray objectAtIndex:row];
+    [icon setFrame:CGRectMake(0, 0, 50, 50)];
+    
+    if (iconArray != nil) {
+        [pickerCustomView addSubview:icon];
+    }
+    
+    [pickerCustomView addSubview:titleLabel];
+    
+    return pickerCustomView;
 }
 
 -(void)doneClicked:(id) sender
@@ -212,6 +244,11 @@
     dataArray = data;
 }
 
+-(void) setIcons:(NSArray<UIImageView *> *)icons
+{
+    iconArray = icons;
+}
+
 -(void) showArrowImage:(BOOL)b
 {
     if (b == YES) {
@@ -285,7 +322,7 @@
 
 -(void) setValueAtIndex:(NSInteger)index
 {
-    if (index >= 0) [self pickerView:nil didSelectRow:index inComponent:0];
+    if (index >= 0) [self pickerView:self->pickerView didSelectRow:index inComponent:0];
     else [self setText:nil];
 }
 

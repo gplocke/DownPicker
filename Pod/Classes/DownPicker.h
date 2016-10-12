@@ -16,6 +16,7 @@
     UIPickerView* pickerView;
     IBOutlet UITextField* textField;
     NSArray* dataArray;
+    NSArray <UIImageView *> *iconArray;
     NSString* placeholder;
     NSString* placeholderWhileSelecting;
 	NSString* toolbarDoneButtonText;
@@ -29,6 +30,7 @@
 
 -(id)initWithTextField:(UITextField *)tf;
 -(id)initWithTextField:(UITextField *)tf withData:(NSArray*) data;
+-(id)initWithTextField:(UITextField *)tf withData:(NSArray*) data andIcons:(NSArray <UIImageView *> *) icons;
 
 @property (nonatomic) BOOL shouldDisplayCancelButton;
 
@@ -40,6 +42,7 @@
 -(void) setArrowImage:(UIImage*)image;
 
 -(void) setData:(NSArray*) data;
+-(void) setIcons:(NSArray <UIImageView *>*) icons;
 -(void) setPlaceholder:(NSString*)str;
 -(void) setPlaceholderWhileSelecting:(NSString*)str;
 -(void) setAttributedPlaceholder:(NSAttributedString *)attributedString;

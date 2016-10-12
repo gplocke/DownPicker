@@ -1,0 +1,140 @@
+GIT
+  remote: https://github.com/CocoaPods/CocoaPods.git
+  revision: 16b0ceca205858090230869398c8568fce035c85
+  branch: master
+  specs:
+    cocoapods (1.1.0.rc.3)
+      activesupport (>= 4.0.2, < 5)
+      claide (>= 1.0.1, < 2.0)
+      cocoapods-core (= 1.1.0.rc.3)
+      cocoapods-deintegrate (>= 1.0.1, < 2.0)
+      cocoapods-downloader (>= 1.1.1, < 2.0)
+      cocoapods-plugins (>= 1.0.0, < 2.0)
+      cocoapods-search (>= 1.0.0, < 2.0)
+      cocoapods-stats (>= 1.0.0, < 2.0)
+      cocoapods-trunk (= 1.1.0.beta.1)
+      cocoapods-try (>= 1.1.0, < 2.0)
+      colored (~> 1.2)
+      escape (~> 0.0.4)
+      fourflusher (~> 2.0)
+      gh_inspector (~> 1.0)
+      molinillo (~> 0.5.1)
+      nap (~> 1.0)
+      xcodeproj (>= 1.3.2, < 2.0)
+
+GIT
+  remote: https://github.com/CocoaPods/Xcodeproj.git
+  revision: a517d2371f5156e6b4db0948418189a7066d8607
+  specs:
+    xcodeproj (1.3.2)
+      activesupport (>= 3)
+      claide (>= 1.0.1, < 2.0)
+      colored (~> 1.2)
+
+GIT
+  remote: https://github.com/orta/cocoapods-keys.git
+  revision: cd9c40725a684c584aab2e33270ec1df442fc7ea
+  specs:
+    cocoapods-keys (1.7.0)
+      dotenv
+      osx_keychain
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    RubyInline (3.12.4)
+      ZenTest (~> 4.3)
+    ZenTest (4.11.1)
+    activesupport (4.2.7.1)
+      i18n (~> 0.7)
+      json (~> 1.7, >= 1.7.7)
+      minitest (~> 5.1)
+      thread_safe (~> 0.3, >= 0.3.4)
+      tzinfo (~> 1.1)
+    aws-sdk (1.66.0)
+      aws-sdk-v1 (= 1.66.0)
+    aws-sdk-v1 (1.66.0)
+      json (~> 1.4)
+      nokogiri (>= 1.4.4)
+    claide (1.0.1)
+    cocoapods-core (1.1.0.rc.3)
+      activesupport (>= 4.0.2, < 5)
+      fuzzy_match (~> 2.0.4)
+      nap (~> 1.0)
+    cocoapods-deintegrate (1.0.1)
+    cocoapods-downloader (1.1.1)
+    cocoapods-plugins (1.0.0)
+      nap
+    cocoapods-search (1.0.0)
+    cocoapods-stats (1.0.0)
+    cocoapods-trunk (1.1.0.beta.1)
+      nap (>= 0.8, < 2.0)
+      netrc (= 0.7.8)
+    cocoapods-try (1.1.0)
+    colored (1.2)
+    commander (4.4.0)
+      highline (~> 1.7.2)
+    dotenv (2.1.1)
+    escape (0.0.4)
+    faraday (0.8.11)
+      multipart-post (~> 1.2.0)
+    faraday_middleware (0.10.0)
+      faraday (>= 0.7.4, < 0.10)
+    fourflusher (2.0.0)
+    fuzzy_match (2.0.4)
+    gh_inspector (1.0.2)
+    highline (1.7.8)
+    i18n (0.7.0)
+    json (1.8.3)
+    mini_portile2 (2.0.0)
+    minitest (5.9.1)
+    molinillo (0.5.1)
+    multipart-post (1.2.0)
+    nap (1.1.0)
+    net-sftp (2.1.2)
+      net-ssh (>= 2.6.5)
+    net-ssh (3.2.0)
+    netrc (0.7.8)
+    nokogiri (1.6.7.2)
+      mini_portile2 (~> 2.0.0.rc2)
+    osx_keychain (1.0.1)
+      RubyInline (~> 3)
+    plist (3.1.0)
+    rouge (1.11.1)
+    rubyzip (1.2.0)
+    sbconstants (1.2.0)
+    security (0.1.3)
+    shenzhen (0.14.2)
+      aws-sdk (~> 1.0)
+      commander (~> 4.3)
+      dotenv (>= 0.7)
+      faraday (~> 0.8.9)
+      faraday_middleware (~> 0.9)
+      highline (>= 1.7.2)
+      json (~> 1.8)
+      net-sftp (~> 2.1.2)
+      plist (~> 3.1.0)
+      rubyzip (~> 1.1)
+      security (~> 0.1.3)
+      terminal-table (~> 1.4.5)
+    terminal-table (1.4.5)
+    thread_safe (0.3.5)
+    tzinfo (1.2.2)
+      thread_safe (~> 0.1)
+    xcpretty (0.2.4)
+      rouge (~> 1.8)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  cocoapods!
+  cocoapods-keys!
+  nokogiri (= 1.6.7.2)
+  sbconstants
+  shenzhen
+  xcodeproj!
+  xcpretty
+
+BUNDLED WITH
+   1.12.5

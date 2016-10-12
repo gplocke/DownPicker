@@ -6,9 +6,11 @@ DEPENDENCIES:
 
 EXTERNAL SOURCES:
   DownPicker:
-    :path: "../"
+    :path: ../
 
 SPEC CHECKSUMS:
   DownPicker: c00ea63f08ae82116cc93d0eba74e86bf3d4c68e
 
-COCOAPODS: 0.39.0
+PODFILE CHECKSUM: 2b3b334b1c41939cda59231c4836efcda557b93a
+
+COCOAPODS: 1.1.0.rc.3
