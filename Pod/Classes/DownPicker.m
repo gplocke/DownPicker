@@ -110,7 +110,7 @@
     
     UILabel *titleLabel = [[UILabel alloc] init];
     titleLabel.text = [dataArray objectAtIndex:row];
-    [titleLabel setFrame:CGRectMake(60,0,50,50)];
+    [titleLabel setFrame:CGRectMake(60,0,50,250)];
     [pickerCustomView addSubview:titleLabel];
     
     UIImageView *icon = [iconArray objectAtIndex:row];
